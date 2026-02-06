@@ -57,21 +57,21 @@
 
 1. **Клонируйте репозиторий:**
    
-   ```bash git clone [https://github.com/x9skyfall/fan-song.git]```
+   ``` git clone https://github.com/x9skyfall/fan-song.git```
 2. **Установите зависимости:**
     
-    ```bash pip install -r requirements.txt```
+    ``` pip install -r requirements.txt```
 
  3. **Настройте переменные окружения: Создайте файл .env и добавьте ваш API ключ:**
 
-    ```bash GROQ_API_KEY=your_api_key_here```
+    ``` GROQ_API_KEY=your_api_key_here ```
 
  4 **Установка и запуск**
  
  Важно: Для работы транскрибации необходимо, чтобы в системе был установлен FFmpeg, либо файл ffmpeg.exe должен находиться в корневой папке проекта.
 
 5. **Запустите приложение:**
-    ```bash python main.py```
+    ``` python main.py```
 
 ---
 
